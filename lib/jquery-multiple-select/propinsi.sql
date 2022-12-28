@@ -1,0 +1,45 @@
+-- Adminer 3.7.0 MySQL dump
+
+DROP TABLE IF EXISTS `propinsi`;
+CREATE TABLE `propinsi` (
+  `kode` varchar(2) NOT NULL,
+  `nama` varchar(40) NOT NULL,
+  PRIMARY KEY (`kode`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+
+INSERT INTO `propinsi` (`kode`, `nama`) VALUES
+('32',	'JAWA BARAT'),
+('63',	'KALIMANTAN SELATAN'),
+('51',	'BALI'),
+('16',	'SUMATERA SELATAN'),
+('20',	'KEPULAUAN RIAU'),
+('36',	'BANTEN'),
+('73',	'SULAWESI SELATAN'),
+('17',	'BENGKULU'),
+('35',	'JAWA TIMUR'),
+('13',	'SUMATERA BARAT'),
+('72',	'SULAWESI TENGAH'),
+('94',	'PAPUA'),
+('75',	'GORONTALO'),
+('76',	'SULAWESI BARAT'),
+('15',	'JAMBI'),
+('14',	'RIAU'),
+('18',	'LAMPUNG'),
+('33',	'JAWA TENGAH'),
+('12',	'SUMATERA UTARA'),
+('82',	'MALUKU UTARA'),
+('81',	'MALUKU'),
+('62',	'KALIMANTAN TENGAH'),
+('34',	'DI YOGYAKARTA'),
+('53',	'NUSA TENGGARA TIMUR'),
+('61',	'KALIMANTAN BARAT'),
+('95',	'IRIAN JAYA BARAT'),
+('31',	'DKI JAKARTA'),
+('52',	'NUSA TENGGARA BARAT'),
+('71',	'SULAWESI UTARA'),
+('11',	'NANGGROE ACEH DARUSSALAM'),
+('64',	'KALIMANTAN TIMUR'),
+('74',	'SULAWESI TENGGARA'),
+('19',	'BANGKA BELITUNG');
+
+-- 2013-08-02 00:26:41

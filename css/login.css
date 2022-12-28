@@ -1,0 +1,94 @@
+/*//////////////////////////////////////////////////////////////////
+[ FONT ]*/
+
+@font-face {
+  font-family: Poppins-Regular;
+  src: url('../fonts/Poppins-Regular.ttf'); 
+}
+
+@font-face {
+  font-family: Poppins-Medium;
+  src: url('../fonts/Poppins-Medium.ttf'); 
+}
+
+@font-face {
+  font-family: Poppins-Bold;
+  src: url('../fonts/Poppins-Bold.ttf'); 
+}
+
+@font-face {
+  font-family: Poppins-SemiBold;
+  src: url('../fonts/Poppins-SemiBold.ttf'); 
+}
+
+/*//////////////////////////////////////////////////////////////////
+[ RESTYLE TAG ]*/
+
+* {
+    margin: 0px; 
+    padding: 0px; 
+    box-sizing: border-box;
+}
+
+body, html {
+    font-family: Poppins-Regular, sans-serif;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.box {
+    background-color: #3c8dbc;
+    top: 0;
+    left: 0;
+    min-height: 750px;
+    height: 100%;
+    overflow: hidden;
+    padding: 350px 60px 60px;
+    border-top-left-radius: -10%;
+    color: #fff;
+}
+.logo{
+    margin-top:200px;
+    margin-right:200px;
+    margin-left:200px;
+}
+
+.btn-login{
+    border-radius: 0px;
+    background-color: #fff;
+    border-color: #3c8dbc;
+    color: #3c8dbc;
+    width: 100px;
+}
+.btn-login:hover{
+    background-color: #3c8dbc;
+    border-color: #fff;
+    color: #fff;
+    transition: 0.5s;
+}
+.flat{
+    border-radius: 1px;
+    height: 40px;
+}
+.merk{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 20pt;
+    font-weight: bold;
+}
+.school{
+    margin-top: -10px;
+    text-align: center;
+    font-size: 12pt;
+    font-weight: bold;
+}
+
+.title-login{
+    text-align: center;
+    font-size: 30pt;
+    margin-top: -150px;
+    margin-bottom: 50px;
+}
+

@@ -1,0 +1,23 @@
+[26-Dec-2021 02:45:29 Asia/Jakarta] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/fahmiff1/dev.ulem.online/config/koneksi.php on line 9
+[26-Dec-2021 02:45:29 Asia/Jakarta] PHP Notice:  Undefined variable: nama in /home/fahmiff1/dev.ulem.online/admin/act.php on line 27
+[26-Dec-2021 05:03:46 Asia/Jakarta] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/fahmiff1/dev.ulem.online/config/koneksi.php on line 9
+[26-Dec-2021 05:03:46 Asia/Jakarta] PHP Notice:  Undefined variable: nama in /home/fahmiff1/dev.ulem.online/admin/act.php on line 27
+[26-Dec-2021 05:38:29 Asia/Jakarta] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/fahmiff1/dev.ulem.online/config/koneksi.php on line 9
+[26-Dec-2021 05:38:29 Asia/Jakarta] PHP Notice:  Undefined variable: nama in /home/fahmiff1/dev.ulem.online/admin/act.php on line 27
+[26-Dec-2021 06:44:53 Asia/Jakarta] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/fahmiff1/dev.ulem.online/config/koneksi.php on line 9
+[26-Dec-2021 06:44:53 Asia/Jakarta] PHP Notice:  Undefined variable: nama in /home/fahmiff1/dev.ulem.online/admin/act.php on line 27
+[26-Dec-2021 06:45:35 Asia/Jakarta] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/fahmiff1/dev.ulem.online/config/koneksi.php on line 9
+[26-Dec-2021 06:45:35 Asia/Jakarta] PHP Notice:  Undefined variable: nama in /home/fahmiff1/dev.ulem.online/admin/act.php on line 27
+[26-Dec-2021 06:48:35 Asia/Jakarta] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/fahmiff1/dev.ulem.online/config/koneksi.php on line 9
+[26-Dec-2021 06:48:35 Asia/Jakarta] PHP Notice:  Undefined variable: nama in /home/fahmiff1/dev.ulem.online/admin/act.php on line 27
+[26-Dec-2021 06:49:42 Asia/Jakarta] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/fahmiff1/dev.ulem.online/config/koneksi.php on line 9
+[26-Dec-2021 06:49:42 Asia/Jakarta] PHP Notice:  Undefined variable: nama in /home/fahmiff1/dev.ulem.online/admin/act.php on line 27
+[26-Dec-2021 07:37:06 Asia/Jakarta] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/fahmiff1/dev.ulem.online/config/koneksi.php on line 9
+[26-Dec-2021 07:37:06 Asia/Jakarta] PHP Notice:  Undefined variable: nama in /home/fahmiff1/dev.ulem.online/admin/act.php on line 27
+[26-Dec-2021 07:52:34 Asia/Jakarta] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/fahmiff1/dev.ulem.online/config/koneksi.php on line 9
+[26-Dec-2021 07:52:34 Asia/Jakarta] PHP Notice:  Undefined variable: nama in /home/fahmiff1/dev.ulem.online/admin/act.php on line 27
+[26-Dec-2021 07:53:11 Asia/Jakarta] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/fahmiff1/dev.ulem.online/config/koneksi.php on line 9
+[26-Dec-2021 20:09:10 Asia/Jakarta] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/fahmiff1/dev.ulem.online/config/koneksi.php on line 9
+[26-Dec-2021 20:12:28 Asia/Jakarta] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/fahmiff1/dev.ulem.online/config/koneksi.php on line 9
+[27-Dec-2021 12:54:15 Asia/Jakarta] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/fahmiff1/dev.ulem.online/config/koneksi.php on line 9
+[27-Dec-2021 16:04:03 Asia/Jakarta] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/fahmiff1/dev.ulem.online/config/koneksi.php on line 9

@@ -1,0 +1,35 @@
+body {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+}
+table {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+}
+.header {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 30px;
+	color: #FFFFE0;
+	background-color: #B0C4DE;
+	font-weight: bold;
+}
+input {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: black;
+	height: 22px;
+	border: 1px solid #C2CFDF;
+}
+textarea {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 30px;
+	color: #8BB2D9;
+	border: 1px solid #8BB2D9;
+}
+img.shadow {
+	background: url(image/shadow-1000x1000.gif) no-repeat right bottom;
+	padding: 5px 10px 10px 5px;
+}
+p, li {
+	line-height:175%;
+}

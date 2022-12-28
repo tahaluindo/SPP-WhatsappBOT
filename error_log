@@ -1,0 +1,576 @@
+
+[13-Jul-2021 20:50:45 Asia/Jakarta] PHP Fatal error:  Uncaught exception 'Exception' with message 'Midtrans Error (401): {"error_messages":["Access denied due to unauthorized transaction, please check client or server key","Visit https://snap-docs.midtrans.com/#request-headers for more details"]} | Request url: https://app.midtrans.com/snap/v1/transactions' in /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/SnapApiRequestor.php:107
+Stack trace:
+#0 /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/SnapApiRequestor.php(33): Midtrans\SnapApiRequestor::remoteCall('https://app.mid...', 'SB-Mid-server-M...', Array, true)
+#1 /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/Snap.php(89): Midtrans\SnapApiRequestor::post('https://app.mid...', 'SB-Mid-server-M...', Array)
+#2 /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/Snap.php(34): Midtrans\Snap::createTransaction(Array)
+#3 /home/jecknweb/spps.jeckivhan.web.id/cs.php(113): Midtrans\Snap::getSnapToken(Array)
+#4 {main in /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/SnapApiRequestor.php on line 107
+[13-Jul-2021 20:50:46 Asia/Jakarta] PHP Fatal error:  Uncaught exception 'Exception' with message 'Midtrans Error (401): {"error_messages":["Access denied due to unauthorized transaction, please check client or server key","Visit https://snap-docs.midtrans.com/#request-headers for more details"]} | Request url: https://app.midtrans.com/snap/v1/transactions' in /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/SnapApiRequestor.php:107
+Stack trace:
+#0 /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/SnapApiRequestor.php(33): Midtrans\SnapApiRequestor::remoteCall('https://app.mid...', 'SB-Mid-server-M...', Array, true)
+#1 /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/Snap.php(89): Midtrans\SnapApiRequestor::post('https://app.mid...', 'SB-Mid-server-M...', Array)
+#2 /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/Snap.php(34): Midtrans\Snap::createTransaction(Array)
+#3 /home/jecknweb/spps.jeckivhan.web.id/cs.php(113): Midtrans\Snap::getSnapToken(Array)
+#4 {main in /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/SnapApiRequestor.php on line 107
+[13-Jul-2021 21:29:45 Asia/Jakarta] PHP Fatal error:  Uncaught exception 'Exception' with message 'Midtrans Error (401): {"error_messages":["Access denied due to unauthorized transaction, please check client or server key","Visit https://snap-docs.midtrans.com/#request-headers for more details"]} | Request url: https://app.midtrans.com/snap/v1/transactions' in /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/SnapApiRequestor.php:107
+Stack trace:
+#0 /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/SnapApiRequestor.php(33): Midtrans\SnapApiRequestor::remoteCall('https://app.mid...', 'SB-Mid-server-M...', Array, true)
+#1 /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/Snap.php(89): Midtrans\SnapApiRequestor::post('https://app.mid...', 'SB-Mid-server-M...', Array)
+#2 /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/Snap.php(34): Midtrans\Snap::createTransaction(Array)
+#3 /home/jecknweb/spps.jeckivhan.web.id/cs.php(113): Midtrans\Snap::getSnapToken(Array)
+#4 {main in /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/SnapApiRequestor.php on line 107
+[13-Jul-2021 21:29:46 Asia/Jakarta] PHP Fatal error:  Uncaught exception 'Exception' with message 'Midtrans Error (401): {"error_messages":["Access denied due to unauthorized transaction, please check client or server key","Visit https://snap-docs.midtrans.com/#request-headers for more details"]} | Request url: https://app.midtrans.com/snap/v1/transactions' in /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/SnapApiRequestor.php:107
+Stack trace:
+#0 /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/SnapApiRequestor.php(33): Midtrans\SnapApiRequestor::remoteCall('https://app.mid...', 'SB-Mid-server-M...', Array, true)
+#1 /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/Snap.php(89): Midtrans\SnapApiRequestor::post('https://app.mid...', 'SB-Mid-server-M...', Array)
+#2 /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/Snap.php(34): Midtrans\Snap::createTransaction(Array)
+#3 /home/jecknweb/spps.jeckivhan.web.id/cs.php(113): Midtrans\Snap::getSnapToken(Array)
+#4 {main in /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/SnapApiRequestor.php on line 107
+[13-Jul-2021 21:57:09 Asia/Jakarta] PHP Fatal error:  Uncaught exception 'Exception' with message 'Midtrans Error (401): {"error_messages":["Access denied due to unauthorized transaction, please check client or server key","Visit https://snap-docs.midtrans.com/#request-headers for more details"]} | Request url: https://app.midtrans.com/snap/v1/transactions' in /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/SnapApiRequestor.php:107
+Stack trace:
+#0 /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/SnapApiRequestor.php(33): Midtrans\SnapApiRequestor::remoteCall('https://app.mid...', 'SB-Mid-server-M...', Array, true)
+#1 /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/Snap.php(89): Midtrans\SnapApiRequestor::post('https://app.mid...', 'SB-Mid-server-M...', Array)
+#2 /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/Snap.php(34): Midtrans\Snap::createTransaction(Array)
+#3 /home/jecknweb/spps.jeckivhan.web.id/cs.php(113): Midtrans\Snap::getSnapToken(Array)
+#4 {main in /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/SnapApiRequestor.php on line 107
+[13-Jul-2021 21:57:15 Asia/Jakarta] PHP Fatal error:  Uncaught exception 'Exception' with message 'Midtrans Error (401): {"error_messages":["Access denied due to unauthorized transaction, please check client or server key","Visit https://snap-docs.midtrans.com/#request-headers for more details"]} | Request url: https://app.midtrans.com/snap/v1/transactions' in /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/SnapApiRequestor.php:107
+Stack trace:
+#0 /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/SnapApiRequestor.php(33): Midtrans\SnapApiRequestor::remoteCall('https://app.mid...', 'SB-Mid-server-M...', Array, true)
+#1 /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/Snap.php(89): Midtrans\SnapApiRequestor::post('https://app.mid...', 'SB-Mid-server-M...', Array)
+#2 /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/Snap.php(34): Midtrans\Snap::createTransaction(Array)
+#3 /home/jecknweb/spps.jeckivhan.web.id/cs.php(113): Midtrans\Snap::getSnapToken(Array)
+#4 {main in /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/SnapApiRequestor.php on line 107
+[13-Jul-2021 22:00:07 Asia/Jakarta] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/jecknweb/spps.jeckivhan.web.id/cs.php on line 48
+[13-Jul-2021 22:00:07 Asia/Jakarta] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/jecknweb/spps.jeckivhan.web.id/cs.php on line 48
+[13-Jul-2021 22:00:10 Asia/Jakarta] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/jecknweb/spps.jeckivhan.web.id/cs.php on line 48
+[13-Jul-2021 22:00:10 Asia/Jakarta] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/jecknweb/spps.jeckivhan.web.id/cs.php on line 48
+[13-Jul-2021 22:01:18 Asia/Jakarta] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/jecknweb/spps.jeckivhan.web.id/cs.php on line 48
+[13-Jul-2021 22:01:18 Asia/Jakarta] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/jecknweb/spps.jeckivhan.web.id/cs.php on line 48
+[13-Jul-2021 22:01:26 Asia/Jakarta] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/jecknweb/spps.jeckivhan.web.id/cs.php on line 48
+[13-Jul-2021 22:01:26 Asia/Jakarta] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/jecknweb/spps.jeckivhan.web.id/cs.php on line 48
+[13-Jul-2021 22:23:03 Asia/Jakarta] PHP Fatal error:  Uncaught exception 'Exception' with message 'Midtrans Error (400): {"error_messages":["transaction_details.order_id is required"]} | Request url: https://app.sandbox.midtrans.com/snap/v1/transactions' in /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/SnapApiRequestor.php:107
+Stack trace:
+#0 /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/SnapApiRequestor.php(33): Midtrans\SnapApiRequestor::remoteCall('https://app.san...', 'SB-Mid-server-M...', Array, true)
+#1 /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/Snap.php(89): Midtrans\SnapApiRequestor::post('https://app.san...', 'SB-Mid-server-M...', Array)
+#2 /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/Snap.php(34): Midtrans\Snap::createTransaction(Array)
+#3 /home/jecknweb/spps.jeckivhan.web.id/cs.php(112): Midtrans\Snap::getSnapToken(Array)
+#4 {main}
+  thrown in /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/SnapApiRequestor.php on line 107
+[13-Jul-2021 22:23:09 Asia/Jakarta] PHP Fatal error:  Uncaught exception 'Exception' with message 'Midtrans Error (400): {"error_messages":["transaction_details.order_id is required"]} | Request url: https://app.sandbox.midtrans.com/snap/v1/transactions' in /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/SnapApiRequestor.php:107
+Stack trace:
+#0 /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/SnapApiRequestor.php(33): Midtrans\SnapApiRequestor::remoteCall('https://app.san...', 'SB-Mid-server-M...', Array, true)
+#1 /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/Snap.php(89): Midtrans\SnapApiRequestor::post('https://app.san...', 'SB-Mid-server-M...', Array)
+#2 /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/Snap.php(34): Midtrans\Snap::createTransaction(Array)
+#3 /home/jecknweb/spps.jeckivhan.web.id/cs.php(112): Midtrans\Snap::getSnapToken(Array)
+#4 {main}
+  thrown in /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/SnapApiRequestor.php on line 107
+[13-Jul-2021 22:29:28 Asia/Jakarta] PHP Warning:  include(config/wa.php): failed to open stream: No such file or directory in /home/jecknweb/spps.jeckivhan.web.id/notif.php on line 9
+[13-Jul-2021 22:29:28 Asia/Jakarta] PHP Warning:  include(config/wa.php): failed to open stream: No such file or directory in /home/jecknweb/spps.jeckivhan.web.id/notif.php on line 9
+[13-Jul-2021 22:29:28 Asia/Jakarta] PHP Warning:  include(): Failed opening 'config/wa.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/jecknweb/spps.jeckivhan.web.id/notif.php on line 9
+[13-Jul-2021 22:29:29 Asia/Jakarta] PHP Fatal error:  Uncaught exception 'Exception' with message 'Midtrans Error (): ' in /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/ApiRequestor.php:111
+Stack trace:
+#0 /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/ApiRequestor.php(22): Midtrans\ApiRequestor::remoteCall('https://api.san...', 'SB-Mid-server-M...', false, false)
+#1 /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/Transaction.php(24): Midtrans\ApiRequestor::get('https://api.san...', 'SB-Mid-server-M...', false)
+#2 /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/Notification.php(26): Midtrans\Transaction::status(NULL)
+#3 /home/jecknweb/spps.jeckivhan.web.id/notif.php(18): Midtrans\Notification->__construct()
+#4 {main}
+  thrown in /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/ApiRequestor.php on line 111
+[13-Jul-2021 22:35:12 Asia/Jakarta] PHP Warning:  include(config/wa.php): failed to open stream: No such file or directory in /home/jecknweb/spps.jeckivhan.web.id/notif.php on line 9
+[13-Jul-2021 22:35:12 Asia/Jakarta] PHP Warning:  include(config/wa.php): failed to open stream: No such file or directory in /home/jecknweb/spps.jeckivhan.web.id/notif.php on line 9
+[13-Jul-2021 22:35:12 Asia/Jakarta] PHP Warning:  include(): Failed opening 'config/wa.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/jecknweb/spps.jeckivhan.web.id/notif.php on line 9
+[13-Jul-2021 22:35:13 Asia/Jakarta] PHP Fatal error:  Uncaught exception 'Exception' with message 'Midtrans Error (): ' in /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/ApiRequestor.php:111
+Stack trace:
+#0 /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/ApiRequestor.php(22): Midtrans\ApiRequestor::remoteCall('https://api.san...', 'SB-Mid-server-M...', false, false)
+#1 /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/Transaction.php(24): Midtrans\ApiRequestor::get('https://api.san...', 'SB-Mid-server-M...', false)
+#2 /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/Notification.php(26): Midtrans\Transaction::status(NULL)
+#3 /home/jecknweb/spps.jeckivhan.web.id/notif.php(18): Midtrans\Notification->__construct()
+#4 {main}
+  thrown in /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/ApiRequestor.php on line 111
+[13-Jul-2021 22:35:29 Asia/Jakarta] PHP Fatal error:  Uncaught exception 'Exception' with message 'Midtrans Error (): ' in /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/ApiRequestor.php:111
+Stack trace:
+#0 /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/ApiRequestor.php(22): Midtrans\ApiRequestor::remoteCall('https://api.san...', 'SB-Mid-server-M...', false, false)
+#1 /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/Transaction.php(24): Midtrans\ApiRequestor::get('https://api.san...', 'SB-Mid-server-M...', false)
+#2 /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/Notification.php(26): Midtrans\Transaction::status(NULL)
+#3 /home/jecknweb/spps.jeckivhan.web.id/notif.php(18): Midtrans\Notification->__construct()
+#4 {main}
+  thrown in /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/ApiRequestor.php on line 111
+[13-Jul-2021 22:37:02 Asia/Jakarta] PHP Fatal error:  Uncaught exception 'Exception' with message 'Midtrans Error (): ' in /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/ApiRequestor.php:111
+Stack trace:
+#0 /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/ApiRequestor.php(22): Midtrans\ApiRequestor::remoteCall('https://api.mid...', 'SB-Mid-server-M...', false, false)
+#1 /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/Transaction.php(24): Midtrans\ApiRequestor::get('https://api.mid...', 'SB-Mid-server-M...', false)
+#2 /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/Notification.php(26): Midtrans\Transaction::status(NULL)
+#3 /home/jecknweb/spps.jeckivhan.web.id/notif.php(18): Midtrans\Notification->__construct()
+#4 {main}
+  thrown in /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/ApiRequestor.php on line 111
+[13-Jul-2021 22:39:01 Asia/Jakarta] PHP Fatal error:  Uncaught exception 'Exception' with message 'Midtrans Error (401): {"error_messages":["Access denied due to unauthorized transaction, please check client or server key","Visit https://snap-docs.midtrans.com/#request-headers for more details"]} | Request url: https://app.midtrans.com/snap/v1/transactions' in /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/SnapApiRequestor.php:107
+Stack trace:
+#0 /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/SnapApiRequestor.php(33): Midtrans\SnapApiRequestor::remoteCall('https://app.mid...', 'SB-Mid-server-M...', Array, true)
+#1 /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/Snap.php(89): Midtrans\SnapApiRequestor::post('https://app.mid...', 'SB-Mid-server-M...', Array)
+#2 /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/Snap.php(34): Midtrans\Snap::createTransaction(Array)
+#3 /home/jecknweb/spps.jeckivhan.web.id/cs.php(112): Midtrans\Snap::getSnapToken(Array)
+#4 {main in /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/SnapApiRequestor.php on line 107
+[13-Jul-2021 22:39:03 Asia/Jakarta] PHP Fatal error:  Uncaught exception 'Exception' with message 'Midtrans Error (401): {"error_messages":["Access denied due to unauthorized transaction, please check client or server key","Visit https://snap-docs.midtrans.com/#request-headers for more details"]} | Request url: https://app.midtrans.com/snap/v1/transactions' in /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/SnapApiRequestor.php:107
+Stack trace:
+#0 /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/SnapApiRequestor.php(33): Midtrans\SnapApiRequestor::remoteCall('https://app.mid...', 'SB-Mid-server-M...', Array, true)
+#1 /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/Snap.php(89): Midtrans\SnapApiRequestor::post('https://app.mid...', 'SB-Mid-server-M...', Array)
+#2 /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/Snap.php(34): Midtrans\Snap::createTransaction(Array)
+#3 /home/jecknweb/spps.jeckivhan.web.id/cs.php(112): Midtrans\Snap::getSnapToken(Array)
+#4 {main in /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/SnapApiRequestor.php on line 107
+[13-Jul-2021 22:39:05 Asia/Jakarta] PHP Fatal error:  Uncaught exception 'Exception' with message 'Midtrans Error (401): {"error_messages":["Access denied due to unauthorized transaction, please check client or server key","Visit https://snap-docs.midtrans.com/#request-headers for more details"]} | Request url: https://app.midtrans.com/snap/v1/transactions' in /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/SnapApiRequestor.php:107
+Stack trace:
+#0 /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/SnapApiRequestor.php(33): Midtrans\SnapApiRequestor::remoteCall('https://app.mid...', 'SB-Mid-server-M...', Array, true)
+#1 /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/Snap.php(89): Midtrans\SnapApiRequestor::post('https://app.mid...', 'SB-Mid-server-M...', Array)
+#2 /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/Snap.php(34): Midtrans\Snap::createTransaction(Array)
+#3 /home/jecknweb/spps.jeckivhan.web.id/cs.php(112): Midtrans\Snap::getSnapToken(Array)
+#4 {main in /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/SnapApiRequestor.php on line 107
+[13-Jul-2021 22:39:14 Asia/Jakarta] PHP Fatal error:  Uncaught exception 'Exception' with message 'Midtrans Error (401): {"error_messages":["Access denied due to unauthorized transaction, please check client or server key","Visit https://snap-docs.midtrans.com/#request-headers for more details"]} | Request url: https://app.midtrans.com/snap/v1/transactions' in /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/SnapApiRequestor.php:107
+Stack trace:
+#0 /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/SnapApiRequestor.php(33): Midtrans\SnapApiRequestor::remoteCall('https://app.mid...', 'SB-Mid-server-M...', Array, true)
+#1 /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/Snap.php(89): Midtrans\SnapApiRequestor::post('https://app.mid...', 'SB-Mid-server-M...', Array)
+#2 /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/Snap.php(34): Midtrans\Snap::createTransaction(Array)
+#3 /home/jecknweb/spps.jeckivhan.web.id/cs.php(112): Midtrans\Snap::getSnapToken(Array)
+#4 {main in /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/SnapApiRequestor.php on line 107
+[13-Jul-2021 22:49:30 Asia/Jakarta] PHP Fatal error:  Uncaught exception 'Exception' with message 'Midtrans Error (401): {"error_messages":["Access denied due to unauthorized transaction, please check client or server key","Visit https://snap-docs.midtrans.com/#request-headers for more details"]} | Request url: https://app.midtrans.com/snap/v1/transactions' in /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/SnapApiRequestor.php:107
+Stack trace:
+#0 /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/SnapApiRequestor.php(33): Midtrans\SnapApiRequestor::remoteCall('https://app.mid...', 'SB-Mid-server-M...', Array, true)
+#1 /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/Snap.php(89): Midtrans\SnapApiRequestor::post('https://app.mid...', 'SB-Mid-server-M...', Array)
+#2 /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/Snap.php(34): Midtrans\Snap::createTransaction(Array)
+#3 /home/jecknweb/spps.jeckivhan.web.id/cs.php(112): Midtrans\Snap::getSnapToken(Array)
+#4 {main in /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/SnapApiRequestor.php on line 107
+[13-Jul-2021 22:49:34 Asia/Jakarta] PHP Fatal error:  Uncaught exception 'Exception' with message 'Midtrans Error (401): {"error_messages":["Access denied due to unauthorized transaction, please check client or server key","Visit https://snap-docs.midtrans.com/#request-headers for more details"]} | Request url: https://app.midtrans.com/snap/v1/transactions' in /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/SnapApiRequestor.php:107
+Stack trace:
+#0 /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/SnapApiRequestor.php(33): Midtrans\SnapApiRequestor::remoteCall('https://app.mid...', 'SB-Mid-server-M...', Array, true)
+#1 /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/Snap.php(89): Midtrans\SnapApiRequestor::post('https://app.mid...', 'SB-Mid-server-M...', Array)
+#2 /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/Snap.php(34): Midtrans\Snap::createTransaction(Array)
+#3 /home/jecknweb/spps.jeckivhan.web.id/cs.php(112): Midtrans\Snap::getSnapToken(Array)
+#4 {main in /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/SnapApiRequestor.php on line 107
+[13-Jul-2021 22:50:10 Asia/Jakarta] PHP Fatal error:  Uncaught exception 'Exception' with message 'Midtrans Error (): ' in /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/ApiRequestor.php:111
+Stack trace:
+#0 /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/ApiRequestor.php(22): Midtrans\ApiRequestor::remoteCall('https://api.san...', 'SB-Mid-server-M...', false, false)
+#1 /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/Transaction.php(24): Midtrans\ApiRequestor::get('https://api.san...', 'SB-Mid-server-M...', false)
+#2 /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/Notification.php(26): Midtrans\Transaction::status(NULL)
+#3 /home/jecknweb/spps.jeckivhan.web.id/notif.php(18): Midtrans\Notification->__construct()
+#4 {main}
+  thrown in /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/ApiRequestor.php on line 111
+[13-Jul-2021 22:50:39 Asia/Jakarta] PHP Fatal error:  Uncaught exception 'Exception' with message 'Midtrans Error (): ' in /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/ApiRequestor.php:111
+Stack trace:
+#0 /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/ApiRequestor.php(22): Midtrans\ApiRequestor::remoteCall('https://api.mid...', 'Mid-server-pQHU...', false, false)
+#1 /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/Transaction.php(24): Midtrans\ApiRequestor::get('https://api.mid...', 'Mid-server-pQHU...', false)
+#2 /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/Notification.php(26): Midtrans\Transaction::status(NULL)
+#3 /home/jecknweb/spps.jeckivhan.web.id/notif.php(18): Midtrans\Notification->__construct()
+#4 {main}
+  thrown in /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/ApiRequestor.php on line 111
+[13-Jul-2021 23:09:37 Asia/Jakarta] PHP Fatal error:  Uncaught exception 'Exception' with message 'Midtrans Error (): ' in /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/ApiRequestor.php:111
+Stack trace:
+#0 /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/ApiRequestor.php(22): Midtrans\ApiRequestor::remoteCall('https://api.mid...', 'Mid-server-pQHU...', false, false)
+#1 /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/Transaction.php(24): Midtrans\ApiRequestor::get('https://api.mid...', 'Mid-server-pQHU...', false)
+#2 /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/Notification.php(26): Midtrans\Transaction::status(NULL)
+#3 /home/jecknweb/spps.jeckivhan.web.id/notif.php(18): Midtrans\Notification->__construct()
+#4 {main}
+  thrown in /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/ApiRequestor.php on line 111
+[13-Jul-2021 23:17:33 Asia/Jakarta] PHP Fatal error:  Uncaught exception 'Exception' with message 'Midtrans Error (): ' in /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/ApiRequestor.php:111
+Stack trace:
+#0 /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/ApiRequestor.php(22): Midtrans\ApiRequestor::remoteCall('https://api.mid...', 'Mid-server-pQHU...', false, false)
+#1 /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/Transaction.php(24): Midtrans\ApiRequestor::get('https://api.mid...', 'Mid-server-pQHU...', false)
+#2 /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/Notification.php(26): Midtrans\Transaction::status(NULL)
+#3 /home/jecknweb/spps.jeckivhan.web.id/notif.php(18): Midtrans\Notification->__construct()
+#4 {main}
+  thrown in /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/ApiRequestor.php on line 111
+[13-Jul-2021 23:20:26 Asia/Jakarta] PHP Fatal error:  Uncaught exception 'Exception' with message 'Midtrans Error (): ' in /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/ApiRequestor.php:111
+Stack trace:
+#0 /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/ApiRequestor.php(22): Midtrans\ApiRequestor::remoteCall('https://api.mid...', 'Mid-server-pQHU...', false, false)
+#1 /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/Transaction.php(24): Midtrans\ApiRequestor::get('https://api.mid...', 'Mid-server-pQHU...', false)
+#2 /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/Notification.php(26): Midtrans\Transaction::status(NULL)
+#3 /home/jecknweb/spps.jeckivhan.web.id/notif.php(18): Midtrans\Notification->__construct()
+#4 {main}
+  thrown in /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/ApiRequestor.php on line 111
+[13-Jul-2021 23:21:23 Asia/Jakarta] PHP Fatal error:  Uncaught exception 'Exception' with message 'Midtrans Error (): ' in /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/ApiRequestor.php:111
+Stack trace:
+#0 /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/ApiRequestor.php(22): Midtrans\ApiRequestor::remoteCall('https://api.mid...', 'Mid-server-pQHU...', false, false)
+#1 /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/Transaction.php(24): Midtrans\ApiRequestor::get('https://api.mid...', 'Mid-server-pQHU...', false)
+#2 /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/Notification.php(26): Midtrans\Transaction::status(NULL)
+#3 /home/jecknweb/spps.jeckivhan.web.id/notif.php(18): Midtrans\Notification->__construct()
+#4 {main}
+  thrown in /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/ApiRequestor.php on line 111
+[14-Jul-2021 00:33:25 Asia/Jakarta] PHP Fatal error:  Uncaught exception 'Exception' with message 'Midtrans Error (401): {"error_messages":["Access denied due to unauthorized transaction, please check client or server key","Visit https://snap-docs.midtrans.com/#request-headers for more details"]} | Request url: https://app.midtrans.com/snap/v1/transactions' in /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/SnapApiRequestor.php:107
+Stack trace:
+#0 /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/SnapApiRequestor.php(33): Midtrans\SnapApiRequestor::remoteCall('https://app.mid...', 'SB-Mid-server-M...', Array, true)
+#1 /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/Snap.php(89): Midtrans\SnapApiRequestor::post('https://app.mid...', 'SB-Mid-server-M...', Array)
+#2 /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/Snap.php(34): Midtrans\Snap::createTransaction(Array)
+#3 /home/jecknweb/spps.jeckivhan.web.id/cs.php(112): Midtrans\Snap::getSnapToken(Array)
+#4 {main in /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/SnapApiRequestor.php on line 107
+[14-Jul-2021 00:33:29 Asia/Jakarta] PHP Fatal error:  Uncaught exception 'Exception' with message 'Midtrans Error (401): {"error_messages":["Access denied due to unauthorized transaction, please check client or server key","Visit https://snap-docs.midtrans.com/#request-headers for more details"]} | Request url: https://app.midtrans.com/snap/v1/transactions' in /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/SnapApiRequestor.php:107
+Stack trace:
+#0 /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/SnapApiRequestor.php(33): Midtrans\SnapApiRequestor::remoteCall('https://app.mid...', 'SB-Mid-server-M...', Array, true)
+#1 /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/Snap.php(89): Midtrans\SnapApiRequestor::post('https://app.mid...', 'SB-Mid-server-M...', Array)
+#2 /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/Snap.php(34): Midtrans\Snap::createTransaction(Array)
+#3 /home/jecknweb/spps.jeckivhan.web.id/cs.php(112): Midtrans\Snap::getSnapToken(Array)
+#4 {main in /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/SnapApiRequestor.php on line 107
+[14-Jul-2021 00:44:28 Asia/Jakarta] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/jecknweb/spps.jeckivhan.web.id/notif.php on line 65
+[14-Jul-2021 00:44:28 Asia/Jakarta] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/jecknweb/spps.jeckivhan.web.id/notif.php on line 80
+[14-Jul-2021 00:45:47 Asia/Jakarta] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/jecknweb/spps.jeckivhan.web.id/notif.php on line 65
+[14-Jul-2021 01:06:20 Asia/Jakarta] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/jecknweb/spps.jeckivhan.web.id/notif.php on line 65
+[14-Jul-2021 07:40:10 Asia/Jakarta] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/jecknweb/spps.jeckivhan.web.id/notif.php on line 65
+[14-Jul-2021 07:40:10 Asia/Jakarta] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/jecknweb/spps.jeckivhan.web.id/notif.php on line 80
+[14-Jul-2021 07:44:51 Asia/Jakarta] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/jecknweb/spps.jeckivhan.web.id/notif.php on line 65
+[14-Jul-2021 07:44:51 Asia/Jakarta] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/jecknweb/spps.jeckivhan.web.id/notif.php on line 80
+[14-Jul-2021 09:00:22 Asia/Jakarta] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/jecknweb/spps.jeckivhan.web.id/notif.php on line 67
+[17-Jul-2021 19:16:56 Asia/Jakarta] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/jecknweb/spps.jeckivhan.web.id/notif.php on line 67
+[17-Jul-2021 19:34:46 Asia/Jakarta] PHP Fatal error:  Uncaught exception 'Exception' with message 'Midtrans Error (401): {"error_messages":["Access denied due to unauthorized transaction, please check client or server key","Visit https://snap-docs.midtrans.com/#request-headers for more details"]} | Request url: https://app.midtrans.com/snap/v1/transactions' in /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/SnapApiRequestor.php:107
+Stack trace:
+#0 /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/SnapApiRequestor.php(33): Midtrans\SnapApiRequestor::remoteCall('https://app.mid...', 'SB-Mid-server-M...', Array, true)
+#1 /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/Snap.php(89): Midtrans\SnapApiRequestor::post('https://app.mid...', 'SB-Mid-server-M...', Array)
+#2 /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/Snap.php(34): Midtrans\Snap::createTransaction(Array)
+#3 /home/jecknweb/spps.jeckivhan.web.id/cs.php(112): Midtrans\Snap::getSnapToken(Array)
+#4 {main in /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/SnapApiRequestor.php on line 107
+[17-Jul-2021 19:34:47 Asia/Jakarta] PHP Fatal error:  Uncaught exception 'Exception' with message 'Midtrans Error (401): {"error_messages":["Access denied due to unauthorized transaction, please check client or server key","Visit https://snap-docs.midtrans.com/#request-headers for more details"]} | Request url: https://app.midtrans.com/snap/v1/transactions' in /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/SnapApiRequestor.php:107
+Stack trace:
+#0 /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/SnapApiRequestor.php(33): Midtrans\SnapApiRequestor::remoteCall('https://app.mid...', 'SB-Mid-server-M...', Array, true)
+#1 /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/Snap.php(89): Midtrans\SnapApiRequestor::post('https://app.mid...', 'SB-Mid-server-M...', Array)
+#2 /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/Snap.php(34): Midtrans\Snap::createTransaction(Array)
+#3 /home/jecknweb/spps.jeckivhan.web.id/cs.php(112): Midtrans\Snap::getSnapToken(Array)
+#4 {main in /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/SnapApiRequestor.php on line 107
+[17-Jul-2021 19:34:48 Asia/Jakarta] PHP Fatal error:  Uncaught exception 'Exception' with message 'Midtrans Error (401): {"error_messages":["Access denied due to unauthorized transaction, please check client or server key","Visit https://snap-docs.midtrans.com/#request-headers for more details"]} | Request url: https://app.midtrans.com/snap/v1/transactions' in /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/SnapApiRequestor.php:107
+Stack trace:
+#0 /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/SnapApiRequestor.php(33): Midtrans\SnapApiRequestor::remoteCall('https://app.mid...', 'SB-Mid-server-M...', Array, true)
+#1 /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/Snap.php(89): Midtrans\SnapApiRequestor::post('https://app.mid...', 'SB-Mid-server-M...', Array)
+#2 /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/Snap.php(34): Midtrans\Snap::createTransaction(Array)
+#3 /home/jecknweb/spps.jeckivhan.web.id/cs.php(112): Midtrans\Snap::getSnapToken(Array)
+#4 {main in /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/SnapApiRequestor.php on line 107
+[17-Jul-2021 19:46:23 Asia/Jakarta] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/jecknweb/spps.jeckivhan.web.id/notif.php on line 6
+[17-Jul-2021 19:46:23 Asia/Jakarta] PHP Warning:  mysql_query(): A link to the server could not be established in /home/jecknweb/spps.jeckivhan.web.id/notif.php on line 6
+[17-Jul-2021 19:46:23 Asia/Jakarta] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/jecknweb/spps.jeckivhan.web.id/notif.php on line 6
+[17-Jul-2021 19:46:24 Asia/Jakarta] PHP Fatal error:  Uncaught exception 'Exception' with message 'Midtrans Error (401): ' in /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/ApiRequestor.php:111
+Stack trace:
+#0 /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/ApiRequestor.php(22): Midtrans\ApiRequestor::remoteCall('https://api.san...', '', false, false)
+#1 /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/Transaction.php(24): Midtrans\ApiRequestor::get('https://api.san...', '', false)
+#2 /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/Notification.php(26): Midtrans\Transaction::status('d8ce13c8-4684-4...')
+#3 /home/jecknweb/spps.jeckivhan.web.id/notif.php(20): Midtrans\Notification->__construct()
+#4 {main}
+  thrown in /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/ApiRequestor.php on line 111
+[17-Jul-2021 19:47:10 Asia/Jakarta] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/jecknweb/spps.jeckivhan.web.id/notif.php on line 6
+[17-Jul-2021 19:47:10 Asia/Jakarta] PHP Warning:  mysql_query(): A link to the server could not be established in /home/jecknweb/spps.jeckivhan.web.id/notif.php on line 6
+[17-Jul-2021 19:47:10 Asia/Jakarta] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/jecknweb/spps.jeckivhan.web.id/notif.php on line 6
+[17-Jul-2021 19:47:11 Asia/Jakarta] PHP Fatal error:  Uncaught exception 'Exception' with message 'Midtrans Error (401): ' in /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/ApiRequestor.php:111
+Stack trace:
+#0 /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/ApiRequestor.php(22): Midtrans\ApiRequestor::remoteCall('https://api.san...', '', false, false)
+#1 /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/Transaction.php(24): Midtrans\ApiRequestor::get('https://api.san...', '', false)
+#2 /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/Notification.php(26): Midtrans\Transaction::status('d8ce13c8-4684-4...')
+#3 /home/jecknweb/spps.jeckivhan.web.id/notif.php(20): Midtrans\Notification->__construct()
+#4 {main}
+  thrown in /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/ApiRequestor.php on line 111
+[17-Jul-2021 19:48:43 Asia/Jakarta] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/jecknweb/spps.jeckivhan.web.id/notif.php on line 6
+[17-Jul-2021 19:48:43 Asia/Jakarta] PHP Warning:  mysql_query(): A link to the server could not be established in /home/jecknweb/spps.jeckivhan.web.id/notif.php on line 6
+[17-Jul-2021 19:48:43 Asia/Jakarta] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/jecknweb/spps.jeckivhan.web.id/notif.php on line 6
+[17-Jul-2021 19:48:44 Asia/Jakarta] PHP Fatal error:  Uncaught exception 'Exception' with message 'Midtrans Error (401): ' in /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/ApiRequestor.php:111
+Stack trace:
+#0 /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/ApiRequestor.php(22): Midtrans\ApiRequestor::remoteCall('https://api.san...', '', false, false)
+#1 /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/Transaction.php(24): Midtrans\ApiRequestor::get('https://api.san...', '', false)
+#2 /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/Notification.php(26): Midtrans\Transaction::status('82258c4f-a1d0-4...')
+#3 /home/jecknweb/spps.jeckivhan.web.id/notif.php(20): Midtrans\Notification->__construct()
+#4 {main}
+  thrown in /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/ApiRequestor.php on line 111
+[17-Jul-2021 19:48:52 Asia/Jakarta] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/jecknweb/spps.jeckivhan.web.id/notif.php on line 6
+[17-Jul-2021 19:48:52 Asia/Jakarta] PHP Warning:  mysql_query(): A link to the server could not be established in /home/jecknweb/spps.jeckivhan.web.id/notif.php on line 6
+[17-Jul-2021 19:48:52 Asia/Jakarta] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/jecknweb/spps.jeckivhan.web.id/notif.php on line 6
+[17-Jul-2021 19:48:53 Asia/Jakarta] PHP Fatal error:  Uncaught exception 'Exception' with message 'Midtrans Error (401): ' in /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/ApiRequestor.php:111
+Stack trace:
+#0 /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/ApiRequestor.php(22): Midtrans\ApiRequestor::remoteCall('https://api.san...', '', false, false)
+#1 /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/Transaction.php(24): Midtrans\ApiRequestor::get('https://api.san...', '', false)
+#2 /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/Notification.php(26): Midtrans\Transaction::status('82258c4f-a1d0-4...')
+#3 /home/jecknweb/spps.jeckivhan.web.id/notif.php(20): Midtrans\Notification->__construct()
+#4 {main}
+  thrown in /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/ApiRequestor.php on line 111
+[17-Jul-2021 19:48:54 Asia/Jakarta] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/jecknweb/spps.jeckivhan.web.id/notif.php on line 6
+[17-Jul-2021 19:48:54 Asia/Jakarta] PHP Warning:  mysql_query(): A link to the server could not be established in /home/jecknweb/spps.jeckivhan.web.id/notif.php on line 6
+[17-Jul-2021 19:48:54 Asia/Jakarta] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/jecknweb/spps.jeckivhan.web.id/notif.php on line 6
+[17-Jul-2021 19:48:55 Asia/Jakarta] PHP Fatal error:  Uncaught exception 'Exception' with message 'Midtrans Error (401): ' in /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/ApiRequestor.php:111
+Stack trace:
+#0 /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/ApiRequestor.php(22): Midtrans\ApiRequestor::remoteCall('https://api.san...', '', false, false)
+#1 /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/Transaction.php(24): Midtrans\ApiRequestor::get('https://api.san...', '', false)
+#2 /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/Notification.php(26): Midtrans\Transaction::status('82258c4f-a1d0-4...')
+#3 /home/jecknweb/spps.jeckivhan.web.id/notif.php(20): Midtrans\Notification->__construct()
+#4 {main}
+  thrown in /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/ApiRequestor.php on line 111
+[17-Jul-2021 19:53:08 Asia/Jakarta] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/jecknweb/spps.jeckivhan.web.id/notif.php on line 69
+[17-Jul-2021 20:57:25 Asia/Jakarta] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/jecknweb/spps.jeckivhan.web.id/notif.php on line 69
+[17-Jul-2021 21:10:47 Asia/Jakarta] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/jecknweb/spps.jeckivhan.web.id/notif.php on line 69
+[17-Jul-2021 21:15:14 Asia/Jakarta] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/jecknweb/spps.jeckivhan.web.id/notif.php on line 69
+[17-Jul-2021 21:15:14 Asia/Jakarta] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/jecknweb/spps.jeckivhan.web.id/notif.php on line 84
+[17-Jul-2021 21:18:31 Asia/Jakarta] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/jecknweb/spps.jeckivhan.web.id/notif.php on line 69
+[17-Jul-2021 21:18:31 Asia/Jakarta] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/jecknweb/spps.jeckivhan.web.id/notif.php on line 84
+[17-Jul-2021 21:20:35 Asia/Jakarta] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/jecknweb/spps.jeckivhan.web.id/notif.php on line 69
+[17-Jul-2021 21:20:35 Asia/Jakarta] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/jecknweb/spps.jeckivhan.web.id/notif.php on line 84
+[17-Jul-2021 21:23:19 Asia/Jakarta] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/jecknweb/spps.jeckivhan.web.id/notif.php on line 69
+[17-Jul-2021 21:23:19 Asia/Jakarta] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/jecknweb/spps.jeckivhan.web.id/notif.php on line 84
+[17-Jul-2021 21:23:19 Asia/Jakarta] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/jecknweb/spps.jeckivhan.web.id/notif.php on line 112
+[17-Jul-2021 21:26:58 Asia/Jakarta] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/jecknweb/spps.jeckivhan.web.id/notif.php on line 69
+[17-Jul-2021 21:26:58 Asia/Jakarta] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/jecknweb/spps.jeckivhan.web.id/notif.php on line 138
+[17-Jul-2021 21:30:19 Asia/Jakarta] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/jecknweb/spps.jeckivhan.web.id/notif.php on line 69
+[17-Jul-2021 21:30:19 Asia/Jakarta] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/jecknweb/spps.jeckivhan.web.id/notif.php on line 138
+[17-Jul-2021 21:37:56 Asia/Jakarta] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/jecknweb/spps.jeckivhan.web.id/notif.php on line 69
+[17-Jul-2021 21:44:20 Asia/Jakarta] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/jecknweb/spps.jeckivhan.web.id/notif.php on line 69
+[17-Jul-2021 21:45:07 Asia/Jakarta] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/jecknweb/spps.jeckivhan.web.id/notif.php on line 69
+[17-Jul-2021 21:59:46 Asia/Jakarta] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/jecknweb/spps.jeckivhan.web.id/notif.php on line 69
+[17-Jul-2021 22:19:09 Asia/Jakarta] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/jecknweb/spps.jeckivhan.web.id/notif.php on line 69
+[17-Jul-2021 22:21:25 Asia/Jakarta] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/jecknweb/spps.jeckivhan.web.id/notif.php on line 69
+[17-Jul-2021 22:24:35 Asia/Jakarta] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/jecknweb/spps.jeckivhan.web.id/notif.php on line 69
+[17-Jul-2021 22:26:45 Asia/Jakarta] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/jecknweb/spps.jeckivhan.web.id/notif.php on line 69
+[17-Jul-2021 22:26:45 Asia/Jakarta] PHP Fatal error:  Uncaught exception 'Exception' with message 'Midtrans Error (): ' in /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/ApiRequestor.php:111
+Stack trace:
+#0 /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/ApiRequestor.php(22): Midtrans\ApiRequestor::remoteCall('https://api.san...', 'SB-Mid-server-M...', false, false)
+#1 /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/Transaction.php(24): Midtrans\ApiRequestor::get('https://api.san...', 'SB-Mid-server-M...', false)
+#2 /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/Notification.php(26): Midtrans\Transaction::status(NULL)
+#3 /home/jecknweb/spps.jeckivhan.web.id/notif.php(20): Midtrans\Notification->__construct()
+#4 {main}
+  thrown in /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/ApiRequestor.php on line 111
+[17-Jul-2021 23:12:00 Asia/Jakarta] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/jecknweb/spps.jeckivhan.web.id/notif.php on line 69
+[17-Jul-2021 23:12:00 Asia/Jakarta] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/jecknweb/spps.jeckivhan.web.id/notif.php on line 84
+[17-Jul-2021 23:36:02 Asia/Jakarta] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/jecknweb/spps.jeckivhan.web.id/notif.php on line 69
+[17-Jul-2021 23:47:27 Asia/Jakarta] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/jecknweb/spps.jeckivhan.web.id/notif.php on line 69
+[17-Jul-2021 23:49:56 Asia/Jakarta] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/jecknweb/spps.jeckivhan.web.id/notif.php on line 69
+[18-Jul-2021 01:09:51 Asia/Jakarta] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/jecknweb/spps.jeckivhan.web.id/notif.php on line 69
+[18-Jul-2021 01:09:51 Asia/Jakarta] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/jecknweb/spps.jeckivhan.web.id/notif.php on line 84
+[18-Jul-2021 01:11:14 Asia/Jakarta] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/jecknweb/spps.jeckivhan.web.id/notif.php on line 69
+[18-Jul-2021 02:16:23 Asia/Jakarta] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/jecknweb/spps.jeckivhan.web.id/notif.php on line 69
+[18-Jul-2021 02:16:23 Asia/Jakarta] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/jecknweb/spps.jeckivhan.web.id/notif.php on line 84
+[18-Jul-2021 02:18:37 Asia/Jakarta] PHP Parse error:  syntax error, unexpected '}' in /home/jecknweb/spps.jeckivhan.web.id/notif.php on line 161
+[18-Jul-2021 02:19:43 Asia/Jakarta] PHP Parse error:  syntax error, unexpected '}' in /home/jecknweb/spps.jeckivhan.web.id/notif.php on line 161
+[18-Jul-2021 02:21:37 Asia/Jakarta] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/jecknweb/spps.jeckivhan.web.id/notif.php on line 69
+[18-Jul-2021 02:21:37 Asia/Jakarta] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/jecknweb/spps.jeckivhan.web.id/notif.php on line 84
+[18-Jul-2021 02:26:17 Asia/Jakarta] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/jecknweb/spps.jeckivhan.web.id/notif.php on line 74
+[18-Jul-2021 02:26:17 Asia/Jakarta] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/jecknweb/spps.jeckivhan.web.id/notif.php on line 89
+[18-Jul-2021 02:30:52 Asia/Jakarta] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/jecknweb/spps.jeckivhan.web.id/notif.php on line 69
+[18-Jul-2021 21:37:15 Asia/Jakarta] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/jecknweb/spps.jeckivhan.web.id/notif.php on line 72
+[18-Jul-2021 21:37:15 Asia/Jakarta] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/jecknweb/spps.jeckivhan.web.id/notif.php on line 87
+[18-Jul-2021 22:05:34 Asia/Jakarta] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/jecknweb/spps.jeckivhan.web.id/notif.php on line 80
+[19-Jul-2021 00:49:39 Asia/Jakarta] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/jecknweb/spps.jeckivhan.web.id/notif.php on line 79
+[19-Jul-2021 00:51:29 Asia/Jakarta] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/jecknweb/spps.jeckivhan.web.id/notif.php on line 81
+[19-Jul-2021 01:23:46 Asia/Jakarta] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/jecknweb/spps.jeckivhan.web.id/notif.php on line 82
+[19-Jul-2021 01:43:10 Asia/Jakarta] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/jecknweb/spps.jeckivhan.web.id/notif.php on line 82
+[23-Jul-2021 20:11:28 Asia/Jakarta] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/jecknweb/spps.jeckivhan.web.id/notif.php on line 81
+[23-Jul-2021 20:11:31 Asia/Jakarta] PHP Fatal error:  Uncaught exception 'Exception' with message 'Midtrans Error (): ' in /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/ApiRequestor.php:111
+Stack trace:
+#0 /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/ApiRequestor.php(22): Midtrans\ApiRequestor::remoteCall('https://api.san...', 'SB-Mid-server-M...', false, false)
+#1 /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/Transaction.php(24): Midtrans\ApiRequestor::get('https://api.san...', 'SB-Mid-server-M...', false)
+#2 /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/Notification.php(26): Midtrans\Transaction::status(NULL)
+#3 /home/jecknweb/spps.jeckivhan.web.id/notif.php(20): Midtrans\Notification->__construct()
+#4 {main}
+  thrown in /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/ApiRequestor.php on line 111
+[26-Jul-2021 10:25:25 Asia/Jakarta] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/jecknweb/spps.jeckivhan.web.id/notif.php on line 81
+[26-Jul-2021 10:25:25 Asia/Jakarta] PHP Fatal error:  Uncaught exception 'Exception' with message 'Midtrans Error (): ' in /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/ApiRequestor.php:111
+Stack trace:
+#0 /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/ApiRequestor.php(22): Midtrans\ApiRequestor::remoteCall('https://api.san...', 'SB-Mid-server-M...', false, false)
+#1 /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/Transaction.php(24): Midtrans\ApiRequestor::get('https://api.san...', 'SB-Mid-server-M...', false)
+#2 /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/Notification.php(26): Midtrans\Transaction::status(NULL)
+#3 /home/jecknweb/spps.jeckivhan.web.id/notif.php(20): Midtrans\Notification->__construct()
+#4 {main}
+  thrown in /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/ApiRequestor.php on line 111
+[27-Jul-2021 13:32:45 Asia/Jakarta] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/jecknweb/spps.jeckivhan.web.id/notif.php on line 81
+[27-Jul-2021 13:32:45 Asia/Jakarta] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/jecknweb/spps.jeckivhan.web.id/notif.php on line 96
+[27-Jul-2021 13:33:22 Asia/Jakarta] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/jecknweb/spps.jeckivhan.web.id/notif.php on line 81
+[27-Jul-2021 13:33:22 Asia/Jakarta] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/jecknweb/spps.jeckivhan.web.id/notif.php on line 96
+[02-Sep-2021 22:43:14 Asia/Jakarta] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/jecknweb/spps.jeckivhan.web.id/notif.php on line 81
+[02-Sep-2021 22:47:24 Asia/Jakarta] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/jecknweb/spps.jeckivhan.web.id/notif.php on line 81
+[02-Sep-2021 23:16:48 Asia/Jakarta] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/jecknweb/spps.jeckivhan.web.id/notif.php on line 81
+[02-Sep-2021 23:18:25 Asia/Jakarta] PHP Parse error:  syntax error, unexpected 'parameter' (T_STRING) in /home/jecknweb/spps.jeckivhan.web.id/callback.php on line 49
+[02-Sep-2021 23:19:35 Asia/Jakarta] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/jecknweb/spps.jeckivhan.web.id/notif.php on line 81
+[03-Sep-2021 09:26:33 Asia/Jakarta] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/jecknweb/spps.jeckivhan.web.id/notif.php on line 81
+[03-Sep-2021 09:30:51 Asia/Jakarta] PHP Fatal error:  Uncaught exception 'Exception' with message 'Midtrans Error (401): {"error_messages":["Access denied due to unauthorized transaction, please check client or server key","Visit https://snap-docs.midtrans.com/#request-headers for more details"]} | Request url: https://app.midtrans.com/snap/v1/transactions' in /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/SnapApiRequestor.php:107
+Stack trace:
+#0 /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/SnapApiRequestor.php(33): Midtrans\SnapApiRequestor::remoteCall('https://app.mid...', 'SB-Mid-server-M...', Array, true)
+#1 /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/Snap.php(89): Midtrans\SnapApiRequestor::post('https://app.mid...', 'SB-Mid-server-M...', Array)
+#2 /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/Snap.php(34): Midtrans\Snap::createTransaction(Array)
+#3 /home/jecknweb/spps.jeckivhan.web.id/cs.php(113): Midtrans\Snap::getSnapToken(Array)
+#4 {main in /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/SnapApiRequestor.php on line 107
+[03-Sep-2021 09:30:53 Asia/Jakarta] PHP Fatal error:  Uncaught exception 'Exception' with message 'Midtrans Error (401): {"error_messages":["Access denied due to unauthorized transaction, please check client or server key","Visit https://snap-docs.midtrans.com/#request-headers for more details"]} | Request url: https://app.midtrans.com/snap/v1/transactions' in /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/SnapApiRequestor.php:107
+Stack trace:
+#0 /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/SnapApiRequestor.php(33): Midtrans\SnapApiRequestor::remoteCall('https://app.mid...', 'SB-Mid-server-M...', Array, true)
+#1 /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/Snap.php(89): Midtrans\SnapApiRequestor::post('https://app.mid...', 'SB-Mid-server-M...', Array)
+#2 /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/Snap.php(34): Midtrans\Snap::createTransaction(Array)
+#3 /home/jecknweb/spps.jeckivhan.web.id/cs.php(113): Midtrans\Snap::getSnapToken(Array)
+#4 {main in /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/SnapApiRequestor.php on line 107
+[03-Sep-2021 09:31:12 Asia/Jakarta] PHP Fatal error:  Uncaught exception 'Exception' with message 'Midtrans Error (401): {"error_messages":["Access denied due to unauthorized transaction, please check client or server key","Visit https://snap-docs.midtrans.com/#request-headers for more details"]} | Request url: https://app.midtrans.com/snap/v1/transactions' in /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/SnapApiRequestor.php:107
+Stack trace:
+#0 /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/SnapApiRequestor.php(33): Midtrans\SnapApiRequestor::remoteCall('https://app.mid...', 'SB-Mid-server-M...', Array, true)
+#1 /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/Snap.php(89): Midtrans\SnapApiRequestor::post('https://app.mid...', 'SB-Mid-server-M...', Array)
+#2 /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/Snap.php(34): Midtrans\Snap::createTransaction(Array)
+#3 /home/jecknweb/spps.jeckivhan.web.id/cs.php(113): Midtrans\Snap::getSnapToken(Array)
+#4 {main in /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/SnapApiRequestor.php on line 107
+[03-Sep-2021 09:31:43 Asia/Jakarta] PHP Fatal error:  Uncaught exception 'Exception' with message 'Midtrans Error (401): {"error_messages":["Access denied due to unauthorized transaction, please check client or server key","Visit https://snap-docs.midtrans.com/#request-headers for more details"]} | Request url: https://app.midtrans.com/snap/v1/transactions' in /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/SnapApiRequestor.php:107
+Stack trace:
+#0 /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/SnapApiRequestor.php(33): Midtrans\SnapApiRequestor::remoteCall('https://app.mid...', 'SB-Mid-server-M...', Array, true)
+#1 /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/Snap.php(89): Midtrans\SnapApiRequestor::post('https://app.mid...', 'SB-Mid-server-M...', Array)
+#2 /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/Snap.php(34): Midtrans\Snap::createTransaction(Array)
+#3 /home/jecknweb/spps.jeckivhan.web.id/cs.php(113): Midtrans\Snap::getSnapToken(Array)
+#4 {main in /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/SnapApiRequestor.php on line 107
+[03-Sep-2021 09:32:09 Asia/Jakarta] PHP Fatal error:  Uncaught exception 'Exception' with message 'Midtrans Error (401): {"error_messages":["Access denied due to unauthorized transaction, please check client or server key","Visit https://snap-docs.midtrans.com/#request-headers for more details"]} | Request url: https://app.midtrans.com/snap/v1/transactions' in /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/SnapApiRequestor.php:107
+Stack trace:
+#0 /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/SnapApiRequestor.php(33): Midtrans\SnapApiRequestor::remoteCall('https://app.mid...', 'SB-Mid-server-M...', Array, true)
+#1 /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/Snap.php(89): Midtrans\SnapApiRequestor::post('https://app.mid...', 'SB-Mid-server-M...', Array)
+#2 /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/Snap.php(34): Midtrans\Snap::createTransaction(Array)
+#3 /home/jecknweb/spps.jeckivhan.web.id/cs.php(113): Midtrans\Snap::getSnapToken(Array)
+#4 {main in /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/SnapApiRequestor.php on line 107
+[03-Sep-2021 09:32:34 Asia/Jakarta] PHP Fatal error:  Uncaught exception 'Exception' with message 'Midtrans Error (401): {"error_messages":["Access denied due to unauthorized transaction, please check client or server key","Visit https://snap-docs.midtrans.com/#request-headers for more details"]} | Request url: https://app.midtrans.com/snap/v1/transactions' in /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/SnapApiRequestor.php:107
+Stack trace:
+#0 /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/SnapApiRequestor.php(33): Midtrans\SnapApiRequestor::remoteCall('https://app.mid...', 'SB-Mid-server-M...', Array, true)
+#1 /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/Snap.php(89): Midtrans\SnapApiRequestor::post('https://app.mid...', 'SB-Mid-server-M...', Array)
+#2 /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/Snap.php(34): Midtrans\Snap::createTransaction(Array)
+#3 /home/jecknweb/spps.jeckivhan.web.id/cs.php(113): Midtrans\Snap::getSnapToken(Array)
+#4 {main in /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/SnapApiRequestor.php on line 107
+[03-Sep-2021 09:33:24 Asia/Jakarta] PHP Fatal error:  Uncaught exception 'Exception' with message 'Midtrans Error (401): {"error_messages":["Access denied due to unauthorized transaction, please check client or server key","Visit https://snap-docs.midtrans.com/#request-headers for more details"]} | Request url: https://app.midtrans.com/snap/v1/transactions' in /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/SnapApiRequestor.php:107
+Stack trace:
+#0 /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/SnapApiRequestor.php(33): Midtrans\SnapApiRequestor::remoteCall('https://app.mid...', 'SB-Mid-server-M...', Array, true)
+#1 /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/Snap.php(89): Midtrans\SnapApiRequestor::post('https://app.mid...', 'SB-Mid-server-M...', Array)
+#2 /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/Snap.php(34): Midtrans\Snap::createTransaction(Array)
+#3 /home/jecknweb/spps.jeckivhan.web.id/cs.php(113): Midtrans\Snap::getSnapToken(Array)
+#4 {main in /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/SnapApiRequestor.php on line 107
+[03-Sep-2021 09:34:36 Asia/Jakarta] PHP Fatal error:  Uncaught exception 'Exception' with message 'Midtrans Error (401): {"error_messages":["Access denied due to unauthorized transaction, please check client or server key","Visit https://snap-docs.midtrans.com/#request-headers for more details"]} | Request url: https://app.midtrans.com/snap/v1/transactions' in /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/SnapApiRequestor.php:107
+Stack trace:
+#0 /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/SnapApiRequestor.php(33): Midtrans\SnapApiRequestor::remoteCall('https://app.mid...', 'SB-Mid-server-M...', Array, true)
+#1 /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/Snap.php(89): Midtrans\SnapApiRequestor::post('https://app.mid...', 'SB-Mid-server-M...', Array)
+#2 /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/Snap.php(34): Midtrans\Snap::createTransaction(Array)
+#3 /home/jecknweb/spps.jeckivhan.web.id/cs.php(114): Midtrans\Snap::getSnapToken(Array)
+#4 {main in /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/SnapApiRequestor.php on line 107
+[03-Sep-2021 09:34:52 Asia/Jakarta] PHP Fatal error:  Uncaught exception 'Exception' with message 'Midtrans Error (401): {"error_messages":["Access denied due to unauthorized transaction, please check client or server key","Visit https://snap-docs.midtrans.com/#request-headers for more details"]} | Request url: https://app.midtrans.com/snap/v1/transactions' in /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/SnapApiRequestor.php:107
+Stack trace:
+#0 /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/SnapApiRequestor.php(33): Midtrans\SnapApiRequestor::remoteCall('https://app.mid...', 'SB-Mid-server-M...', Array, true)
+#1 /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/Snap.php(89): Midtrans\SnapApiRequestor::post('https://app.mid...', 'SB-Mid-server-M...', Array)
+#2 /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/Snap.php(34): Midtrans\Snap::createTransaction(Array)
+#3 /home/jecknweb/spps.jeckivhan.web.id/cs.php(114): Midtrans\Snap::getSnapToken(Array)
+#4 {main in /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/SnapApiRequestor.php on line 107
+[03-Sep-2021 09:35:20 Asia/Jakarta] PHP Fatal error:  Uncaught exception 'Exception' with message 'Midtrans Error (401): {"error_messages":["Access denied due to unauthorized transaction, please check client or server key","Visit https://snap-docs.midtrans.com/#request-headers for more details"]} | Request url: https://app.midtrans.com/snap/v1/transactions' in /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/SnapApiRequestor.php:107
+Stack trace:
+#0 /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/SnapApiRequestor.php(33): Midtrans\SnapApiRequestor::remoteCall('https://app.mid...', 'SB-Mid-server-M...', Array, true)
+#1 /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/Snap.php(89): Midtrans\SnapApiRequestor::post('https://app.mid...', 'SB-Mid-server-M...', Array)
+#2 /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/Snap.php(34): Midtrans\Snap::createTransaction(Array)
+#3 /home/jecknweb/spps.jeckivhan.web.id/cs.php(114): Midtrans\Snap::getSnapToken(Array)
+#4 {main in /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/SnapApiRequestor.php on line 107
+[03-Sep-2021 09:35:21 Asia/Jakarta] PHP Fatal error:  Uncaught exception 'Exception' with message 'Midtrans Error (401): {"error_messages":["Access denied due to unauthorized transaction, please check client or server key","Visit https://snap-docs.midtrans.com/#request-headers for more details"]} | Request url: https://app.midtrans.com/snap/v1/transactions' in /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/SnapApiRequestor.php:107
+Stack trace:
+#0 /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/SnapApiRequestor.php(33): Midtrans\SnapApiRequestor::remoteCall('https://app.mid...', 'SB-Mid-server-M...', Array, true)
+#1 /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/Snap.php(89): Midtrans\SnapApiRequestor::post('https://app.mid...', 'SB-Mid-server-M...', Array)
+#2 /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/Snap.php(34): Midtrans\Snap::createTransaction(Array)
+#3 /home/jecknweb/spps.jeckivhan.web.id/cs.php(114): Midtrans\Snap::getSnapToken(Array)
+#4 {main in /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/SnapApiRequestor.php on line 107
+[03-Sep-2021 09:35:40 Asia/Jakarta] PHP Fatal error:  Uncaught exception 'Exception' with message 'Midtrans Error (401): {"error_messages":["Access denied due to unauthorized transaction, please check client or server key","Visit https://snap-docs.midtrans.com/#request-headers for more details"]} | Request url: https://app.midtrans.com/snap/v1/transactions' in /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/SnapApiRequestor.php:107
+Stack trace:
+#0 /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/SnapApiRequestor.php(33): Midtrans\SnapApiRequestor::remoteCall('https://app.mid...', 'SB-Mid-server-M...', Array, true)
+#1 /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/Snap.php(89): Midtrans\SnapApiRequestor::post('https://app.mid...', 'SB-Mid-server-M...', Array)
+#2 /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/Snap.php(34): Midtrans\Snap::createTransaction(Array)
+#3 /home/jecknweb/spps.jeckivhan.web.id/cs.php(114): Midtrans\Snap::getSnapToken(Array)
+#4 {main in /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/SnapApiRequestor.php on line 107
+[03-Sep-2021 09:35:42 Asia/Jakarta] PHP Fatal error:  Uncaught exception 'Exception' with message 'Midtrans Error (401): {"error_messages":["Access denied due to unauthorized transaction, please check client or server key","Visit https://snap-docs.midtrans.com/#request-headers for more details"]} | Request url: https://app.midtrans.com/snap/v1/transactions' in /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/SnapApiRequestor.php:107
+Stack trace:
+#0 /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/SnapApiRequestor.php(33): Midtrans\SnapApiRequestor::remoteCall('https://app.mid...', 'SB-Mid-server-M...', Array, true)
+#1 /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/Snap.php(89): Midtrans\SnapApiRequestor::post('https://app.mid...', 'SB-Mid-server-M...', Array)
+#2 /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/Snap.php(34): Midtrans\Snap::createTransaction(Array)
+#3 /home/jecknweb/spps.jeckivhan.web.id/cs.php(114): Midtrans\Snap::getSnapToken(Array)
+#4 {main in /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/SnapApiRequestor.php on line 107
+[03-Sep-2021 09:36:05 Asia/Jakarta] PHP Fatal error:  Uncaught exception 'Exception' with message 'Midtrans Error (401): {"error_messages":["Access denied due to unauthorized transaction, please check client or server key","Visit https://snap-docs.midtrans.com/#request-headers for more details"]} | Request url: https://app.midtrans.com/snap/v1/transactions' in /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/SnapApiRequestor.php:107
+Stack trace:
+#0 /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/SnapApiRequestor.php(33): Midtrans\SnapApiRequestor::remoteCall('https://app.mid...', 'SB-Mid-server-M...', Array, true)
+#1 /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/Snap.php(89): Midtrans\SnapApiRequestor::post('https://app.mid...', 'SB-Mid-server-M...', Array)
+#2 /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/Snap.php(34): Midtrans\Snap::createTransaction(Array)
+#3 /home/jecknweb/spps.jeckivhan.web.id/cs.php(114): Midtrans\Snap::getSnapToken(Array)
+#4 {main in /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/SnapApiRequestor.php on line 107
+[03-Sep-2021 09:36:20 Asia/Jakarta] PHP Fatal error:  Uncaught exception 'Exception' with message 'Midtrans Error (401): {"error_messages":["Access denied due to unauthorized transaction, please check client or server key","Visit https://snap-docs.midtrans.com/#request-headers for more details"]} | Request url: https://app.midtrans.com/snap/v1/transactions' in /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/SnapApiRequestor.php:107
+Stack trace:
+#0 /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/SnapApiRequestor.php(33): Midtrans\SnapApiRequestor::remoteCall('https://app.mid...', 'SB-Mid-server-M...', Array, true)
+#1 /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/Snap.php(89): Midtrans\SnapApiRequestor::post('https://app.mid...', 'SB-Mid-server-M...', Array)
+#2 /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/Snap.php(34): Midtrans\Snap::createTransaction(Array)
+#3 /home/jecknweb/spps.jeckivhan.web.id/cs.php(114): Midtrans\Snap::getSnapToken(Array)
+#4 {main in /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/SnapApiRequestor.php on line 107
+[03-Sep-2021 09:36:22 Asia/Jakarta] PHP Fatal error:  Uncaught exception 'Exception' with message 'Midtrans Error (401): {"error_messages":["Access denied due to unauthorized transaction, please check client or server key","Visit https://snap-docs.midtrans.com/#request-headers for more details"]} | Request url: https://app.midtrans.com/snap/v1/transactions' in /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/SnapApiRequestor.php:107
+Stack trace:
+#0 /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/SnapApiRequestor.php(33): Midtrans\SnapApiRequestor::remoteCall('https://app.mid...', 'SB-Mid-server-M...', Array, true)
+#1 /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/Snap.php(89): Midtrans\SnapApiRequestor::post('https://app.mid...', 'SB-Mid-server-M...', Array)
+#2 /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/Snap.php(34): Midtrans\Snap::createTransaction(Array)
+#3 /home/jecknweb/spps.jeckivhan.web.id/cs.php(114): Midtrans\Snap::getSnapToken(Array)
+#4 {main in /home/jecknweb/spps.jeckivhan.web.id/vendor/midtrans/midtrans-php/Midtrans/SnapApiRequestor.php on line 107
+[03-Sep-2021 09:48:05 Asia/Jakarta] PHP Fatal error:  Cannot redeclare anti_injection() (previously declared in /home/jecknweb/spps.jeckivhan.web.id/config/koneksi.php:12) in /home/jecknweb/spps.jeckivhan.web.id/config/koneksi.php on line 15
+[03-Sep-2021 09:48:18 Asia/Jakarta] PHP Fatal error:  Cannot redeclare anti_injection() (previously declared in /home/jecknweb/spps.jeckivhan.web.id/config/koneksi.php:12) in /home/jecknweb/spps.jeckivhan.web.id/config/koneksi.php on line 15
+[03-Sep-2021 09:48:46 Asia/Jakarta] PHP Fatal error:  Cannot redeclare anti_injection() (previously declared in /home/jecknweb/spps.jeckivhan.web.id/config/koneksi.php:12) in /home/jecknweb/spps.jeckivhan.web.id/config/koneksi.php on line 15
+[03-Sep-2021 09:49:14 Asia/Jakarta] PHP Fatal error:  Cannot redeclare anti_injection() (previously declared in /home/jecknweb/spps.jeckivhan.web.id/config/koneksi.php:12) in /home/jecknweb/spps.jeckivhan.web.id/config/koneksi.php on line 15
+[03-Sep-2021 09:49:29 Asia/Jakarta] PHP Fatal error:  Cannot redeclare anti_injection() (previously declared in /home/jecknweb/spps.jeckivhan.web.id/config/koneksi.php:12) in /home/jecknweb/spps.jeckivhan.web.id/config/koneksi.php on line 15
+[03-Sep-2021 09:50:21 Asia/Jakarta] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/jecknweb/spps.jeckivhan.web.id/notif.php on line 81
+[03-Sep-2021 09:53:33 Asia/Jakarta] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/jecknweb/spps.jeckivhan.web.id/notif.php on line 81
+[24-Dec-2021 17:33:26 Asia/Jakarta] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/fahmiff1/dev.ulem.online/config/koneksi.php on line 9
+[26-Dec-2021 02:59:31 Asia/Jakarta] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/fahmiff1/dev.ulem.online/config/koneksi.php on line 9
+[26-Dec-2021 02:59:33 Asia/Jakarta] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/fahmiff1/dev.ulem.online/config/koneksi.php on line 9
+[26-Dec-2021 02:59:43 Asia/Jakarta] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/fahmiff1/dev.ulem.online/config/koneksi.php on line 9
+[26-Dec-2021 02:59:52 Asia/Jakarta] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/fahmiff1/dev.ulem.online/config/koneksi.php on line 9
+[26-Dec-2021 07:00:05 Asia/Jakarta] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/fahmiff1/dev.ulem.online/config/koneksi.php on line 9
+[26-Dec-2021 08:01:02 Asia/Jakarta] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/fahmiff1/dev.ulem.online/config/koneksi.php on line 9
+[26-Dec-2021 08:02:01 Asia/Jakarta] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/fahmiff1/dev.ulem.online/config/koneksi.php on line 9
+[26-Dec-2021 08:03:02 Asia/Jakarta] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/fahmiff1/dev.ulem.online/config/koneksi.php on line 9
+[26-Dec-2021 08:04:01 Asia/Jakarta] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/fahmiff1/dev.ulem.online/config/koneksi.php on line 9
+[26-Dec-2021 08:05:01 Asia/Jakarta] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/fahmiff1/dev.ulem.online/config/koneksi.php on line 9
+[26-Dec-2021 08:06:02 Asia/Jakarta] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/fahmiff1/dev.ulem.online/config/koneksi.php on line 9
+[26-Dec-2021 08:07:02 Asia/Jakarta] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/fahmiff1/dev.ulem.online/config/koneksi.php on line 9
+[26-Dec-2021 08:10:02 Asia/Jakarta] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/fahmiff1/dev.ulem.online/config/koneksi.php on line 9
+[26-Dec-2021 08:15:04 Asia/Jakarta] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/fahmiff1/dev.ulem.online/config/koneksi.php on line 9
+[26-Dec-2021 08:20:01 Asia/Jakarta] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/fahmiff1/dev.ulem.online/config/koneksi.php on line 9
+[26-Dec-2021 08:25:02 Asia/Jakarta] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/fahmiff1/dev.ulem.online/config/koneksi.php on line 9
+[26-Dec-2021 08:30:03 Asia/Jakarta] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/fahmiff1/dev.ulem.online/config/koneksi.php on line 9
+[26-Dec-2021 08:35:04 Asia/Jakarta] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/fahmiff1/dev.ulem.online/config/koneksi.php on line 9
+[26-Dec-2021 08:40:02 Asia/Jakarta] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/fahmiff1/dev.ulem.online/config/koneksi.php on line 9
+[26-Dec-2021 08:45:02 Asia/Jakarta] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/fahmiff1/dev.ulem.online/config/koneksi.php on line 9
+[26-Dec-2021 08:50:01 Asia/Jakarta] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/fahmiff1/dev.ulem.online/config/koneksi.php on line 9
+[26-Dec-2021 08:55:02 Asia/Jakarta] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/fahmiff1/dev.ulem.online/config/koneksi.php on line 9
+[26-Dec-2021 09:00:03 Asia/Jakarta] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/fahmiff1/dev.ulem.online/config/koneksi.php on line 9
+[26-Dec-2021 09:09:02 Asia/Jakarta] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/fahmiff1/dev.ulem.online/config/koneksi.php on line 9
+[26-Dec-2021 09:18:03 Asia/Jakarta] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/fahmiff1/dev.ulem.online/config/koneksi.php on line 9
+[26-Dec-2021 09:27:02 Asia/Jakarta] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/fahmiff1/dev.ulem.online/config/koneksi.php on line 9
+[26-Dec-2021 09:36:01 Asia/Jakarta] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/fahmiff1/dev.ulem.online/config/koneksi.php on line 9
+[26-Dec-2021 09:45:02 Asia/Jakarta] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/fahmiff1/dev.ulem.online/config/koneksi.php on line 9
+[26-Dec-2021 09:54:04 Asia/Jakarta] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/fahmiff1/dev.ulem.online/config/koneksi.php on line 9
+[26-Dec-2021 10:00:03 Asia/Jakarta] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/fahmiff1/dev.ulem.online/config/koneksi.php on line 9
+[26-Dec-2021 10:09:03 Asia/Jakarta] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/fahmiff1/dev.ulem.online/config/koneksi.php on line 9
+[26-Dec-2021 10:18:04 Asia/Jakarta] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/fahmiff1/dev.ulem.online/config/koneksi.php on line 9
+[26-Dec-2021 10:27:03 Asia/Jakarta] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/fahmiff1/dev.ulem.online/config/koneksi.php on line 9
+[26-Dec-2021 10:36:02 Asia/Jakarta] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/fahmiff1/dev.ulem.online/config/koneksi.php on line 9
+[26-Dec-2021 10:45:02 Asia/Jakarta] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/fahmiff1/dev.ulem.online/config/koneksi.php on line 9
+[26-Dec-2021 10:54:02 Asia/Jakarta] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/fahmiff1/dev.ulem.online/config/koneksi.php on line 9
+[26-Dec-2021 11:00:04 Asia/Jakarta] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/fahmiff1/dev.ulem.online/config/koneksi.php on line 9
+[26-Dec-2021 11:09:03 Asia/Jakarta] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/fahmiff1/dev.ulem.online/config/koneksi.php on line 9
+[26-Dec-2021 11:18:04 Asia/Jakarta] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/fahmiff1/dev.ulem.online/config/koneksi.php on line 9
+[26-Dec-2021 11:27:02 Asia/Jakarta] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/fahmiff1/dev.ulem.online/config/koneksi.php on line 9
+[26-Dec-2021 11:36:03 Asia/Jakarta] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/fahmiff1/dev.ulem.online/config/koneksi.php on line 9
+[26-Dec-2021 11:45:04 Asia/Jakarta] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/fahmiff1/dev.ulem.online/config/koneksi.php on line 9
+[26-Dec-2021 11:54:04 Asia/Jakarta] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/fahmiff1/dev.ulem.online/config/koneksi.php on line 9
+[26-Dec-2021 12:00:04 Asia/Jakarta] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/fahmiff1/dev.ulem.online/config/koneksi.php on line 9
+[26-Dec-2021 12:09:02 Asia/Jakarta] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/fahmiff1/dev.ulem.online/config/koneksi.php on line 9
+[26-Dec-2021 12:18:04 Asia/Jakarta] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/fahmiff1/dev.ulem.online/config/koneksi.php on line 9
+[26-Dec-2021 12:27:01 Asia/Jakarta] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/fahmiff1/dev.ulem.online/config/koneksi.php on line 9
+[26-Dec-2021 12:36:02 Asia/Jakarta] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/fahmiff1/dev.ulem.online/config/koneksi.php on line 9
+[26-Dec-2021 12:45:02 Asia/Jakarta] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/fahmiff1/dev.ulem.online/config/koneksi.php on line 9
+[26-Dec-2021 12:54:04 Asia/Jakarta] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/fahmiff1/dev.ulem.online/config/koneksi.php on line 9
+[26-Dec-2021 13:00:04 Asia/Jakarta] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/fahmiff1/dev.ulem.online/config/koneksi.php on line 9
+[26-Dec-2021 13:09:04 Asia/Jakarta] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/fahmiff1/dev.ulem.online/config/koneksi.php on line 9
+[26-Dec-2021 13:18:02 Asia/Jakarta] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/fahmiff1/dev.ulem.online/config/koneksi.php on line 9
+[26-Dec-2021 13:27:03 Asia/Jakarta] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/fahmiff1/dev.ulem.online/config/koneksi.php on line 9
+[26-Dec-2021 13:36:02 Asia/Jakarta] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/fahmiff1/dev.ulem.online/config/koneksi.php on line 9
+[26-Dec-2021 13:45:03 Asia/Jakarta] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/fahmiff1/dev.ulem.online/config/koneksi.php on line 9
+[26-Dec-2021 13:54:02 Asia/Jakarta] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/fahmiff1/dev.ulem.online/config/koneksi.php on line 9
+[26-Dec-2021 14:00:04 Asia/Jakarta] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/fahmiff1/dev.ulem.online/config/koneksi.php on line 9
+[26-Dec-2021 14:09:03 Asia/Jakarta] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/fahmiff1/dev.ulem.online/config/koneksi.php on line 9
+[26-Dec-2021 14:18:02 Asia/Jakarta] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/fahmiff1/dev.ulem.online/config/koneksi.php on line 9
+[26-Dec-2021 14:27:03 Asia/Jakarta] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/fahmiff1/dev.ulem.online/config/koneksi.php on line 9
+[26-Dec-2021 14:28:02 Asia/Jakarta] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/fahmiff1/dev.ulem.online/config/koneksi.php on line 9
+[26-Dec-2021 14:30:02 Asia/Jakarta] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/fahmiff1/dev.ulem.online/config/koneksi.php on line 9
+[26-Dec-2021 21:34:09 Asia/Jakarta] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/fahmiff1/dev.ulem.online/config/koneksi.php on line 9
+[26-Dec-2021 21:51:20 Asia/Jakarta] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/fahmiff1/dev.ulem.online/config/koneksi.php on line 9
+[26-Dec-2021 21:51:26 Asia/Jakarta] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/fahmiff1/dev.ulem.online/config/koneksi.php on line 9
+[26-Dec-2021 21:51:38 Asia/Jakarta] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/fahmiff1/dev.ulem.online/config/koneksi.php on line 9
+[27-Dec-2021 15:42:24 Asia/Jakarta] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/fahmiff1/dev.ulem.online/config/koneksi.php on line 9
+[27-Dec-2021 15:46:33 Asia/Jakarta] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/fahmiff1/dev.ulem.online/config/koneksi.php on line 9
+[27-Dec-2021 15:46:55 Asia/Jakarta] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/fahmiff1/dev.ulem.online/config/koneksi.php on line 9
+[28-Dec-2021 16:03:43 Asia/Jakarta] PHP Fatal error:  Call to undefined function Midtrans\send() in /home/jecknweb/public_html/notif.php on line 226
+[28-Dec-2021 16:04:09 Asia/Jakarta] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/jecknweb/public_html/notif.php on line 88
+[28-Dec-2021 16:07:38 Asia/Jakarta] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/jecknweb/public_html/notif.php on line 88
+[28-Dec-2021 16:10:22 Asia/Jakarta] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/jecknweb/public_html/notif.php on line 88
+[28-Dec-2021 16:19:12 Asia/Jakarta] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/jecknweb/public_html/notif.php on line 88
+[28-Dec-2021 16:20:25 Asia/Jakarta] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/jecknweb/public_html/notif.php on line 88
+[28-Dec-2021 16:20:25 Asia/Jakarta] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/jecknweb/public_html/notif.php on line 103

@@ -1,0 +1,12 @@
+tr.header1{
+    cursor:pointer;
+}
+
+.header1 .sign:after{
+    content:"+";
+    display:inline-block;
+}
+
+.header1.expand .sign:after{
+    content:"-";
+ }
